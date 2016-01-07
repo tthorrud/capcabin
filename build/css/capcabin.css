@@ -1,0 +1,380 @@
+/*color pallet?*/
+/*min-width added to everything*/
+/*same font on everything*/
+/*Button text/design */
+
+
+#container {
+
+}
+
+.mybookings1{
+            text-align: center; 
+            font-weight: bold;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+.mybookings2{
+
+    width: 50px;
+    float: right;
+        }
+
+.loginbutton {
+    cursor: pointer;
+
+}
+.col-md-8.col-xs-12.mainContent {
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 320px;
+}
+
+.nav>li {
+	width: 25%;
+
+}
+.mainContent{
+	padding: 20px;
+  	background: #fafafa;
+}
+.mainContent h2{
+	text-align: center;
+}
+
+.demo-card-wide.mdl-card {
+	/*max-width: 700px;*/
+	min-width: 350px;
+	width: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.booking-choices{
+	max-width: 700px;
+	min-width: 200px;
+	width: auto;
+	height: 500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	margin-bottom: 20px;
+}
+.booking-choices > .demo-card-square.mdl-card{
+	height: 300px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+    min-width: 270px;
+}
+
+.mdl-card__title.calendar {
+    background: url('../images/calendar.jpg') center;
+    background-size: cover;
+    height: 197px; /*needs to be changed when new image is added*/
+}
+
+.mdl-card__title.cabins {
+    background: url('../images/cabins.jpg') center;
+    background-size: cover;
+    height: 197px;
+}
+
+@media (max-width: 750px) {
+    .mdl-card__title.calendar {
+        height: 85px;
+    }
+    .booking-choices > .demo-card-square.mdl-card {
+        height: auto;
+    }
+    .mdl-card__title.cabins{
+        height: 85px;   
+    }
+}
+
+.demo-card-wide > .mdl-card__title {
+	color: #fff;
+	height: 300px;
+
+}
+
+.demo-card-wide > .mdl-card__title.hafjell{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url('../images/hafjell.jpg') center;
+    background-size: cover;
+}
+.demo-card-wide > .mdl-card__title.gaustablikk {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url('../images/gaustablikk.jpg') center;
+    background-size: cover;
+}
+.demo-card-wide > .mdl-card__title.trysil{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url('../images/trysil.jpg') center;
+    background-size: cover;
+}
+.demo-card-wide > .mdl-card__title.hemsedal{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url('../images/hemsedal.jpg') center;
+    background-size: cover;
+}
+.demo-card-wide > .mdl-card__title.carousel{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url('../images/hafjell.jpg') center;
+    background-size: cover;
+}
+
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+
+
+/*css to make navbar perfect*/
+ul.nav.navbar-nav.col-md-8 {
+	padding: 0;  
+}
+.navbar-collapse{
+	padding: 0 !important;  
+}
+.container-fluid{
+	padding: 0 !important;  
+} 
+.container-fluid>.navbar-header{
+	margin: 0 !important;
+}
+.choose-booking-btns > .choose-booking-method{
+	max-width: 400px;
+	min-width: 250px;
+	width: auto;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top:20px;
+}
+.choose-booking-btns > .choose-booking-method > i {
+	font-size: 1.8em;
+	margin-right: 10px;
+}
+.choose-booking-btns{
+	max-width: 700px;
+	min-width: 250px;
+	width: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	position: relative;
+}
+
+nav.navbar.navbar-default{
+	margin-top: 2%;
+    min-width: 320px;
+	} 
+
+.carousel.right{
+	right: 10px;
+	color: rgba(0, 0, 0, 0.60);
+	top: 120px;
+	position: absolute;
+}
+.carousel.left{
+	left: 10px;
+	color: rgba(0, 0, 0, 0.60);
+	top: 120px;
+	position: absolute;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  background-color: #c9d7e1;
+}
+body {
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/test.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center top;
+}
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -40px; 
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 40px; 
+}
+.site-footer {
+  background-image: -webkit-linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
+  background-image: -o-linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#54b4eb), color-stop(60%, #2fa4e7), to(#1d9ce5));
+  background-image: linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff54b4eb', endColorstr='#ff1d9ce5', GradientType=0);
+  border-bottom: 1px solid #178acc;
+  -webkit-filter: none;
+          filter: none;
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-toggle.collapsed.btn.btn-primary{
+	float:left;
+	margin-left: 10px;
+} 
+.navbar.navbar-default {
+	border-radius: 0;
+}
+@media(max-width: 750px){
+	.choose-booking-btns > .choose-booking-method{
+	max-width: 400px;
+	min-width: 250px;
+	margin-right: 0;
+	margin-left: 0;
+	}
+}
+
+.panel-primary > .panel-body.hafjell{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url('../images/hafjell.jpg') center ;
+    background-size: cover;
+	position: relative;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: white;
+}
+.panel-primary > .panel-body.gaustablikk{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url('../images/gaustablikk.jpg') center;
+    background-size: cover;
+	position: relative;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: white;
+}
+.panel-primary > .panel-body.trysil{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url('../images/trysil.jpg') center;
+    background-size: cover;
+	position: relative;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: white;
+}
+
+.panel-primary > .panel-heading.hemsedal{
+		background: url('../images/hemsedal.jpg') center;
+        background-size: cover;
+}
+.panel.panel-primary {
+	color: white;
+}
+/*styling for the calendar*/
+
+.btn.btn-cal{
+    width: 100%;
+    height: 100%
+}
+th button.btn.btn-cal {
+    border-radius: 0;
+    border: none;
+    color: #fff;
+    background-image: -webkit-linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
+    background-image: -o-linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#54b4eb), color-stop(60%, #2fa4e7), to(#1d9ce5));
+    background-image: linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
+    background-repeat: no-repeat;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff54b4eb', endColorstr='#ff1d9ce5', GradientType=0);
+    border-bottom: 1px solid #178acc;
+    -webkit-filter: none;
+    filter: none;
+    -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 60px;
+
+
+}
+th.daysOfWeek{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-width: 40px;
+}
+button.btn.btn-cal{
+    border-radius: 0;
+    background: none;
+    padding: 0;
+    min-height: 50px;
+    min-width: 50px;
+}
+table.width-table{
+    width: 100%;
+    height: 400px;
+
+}
+td.table-cal-btn{
+    border: 1px solid #ddd;
+    position: relative;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    td.table-cal-btn{
+    height: 100%;
+}
+}
+.interval-top-periode1-thursday-periode2-sunday {
+    position: absolute;
+    border-right: 25px solid transparent;
+    border-top: 25px solid green; /*change color*/
+    border-left: 25px solid green; /*change color*/
+    border-bottom: 25px solid transparent;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.interval-top-periode1-sunday-periode2-thursday {
+    position: absolute;
+    border-right: 25px solid green; /*change color*/
+    border-top: 25px solid transparent;
+    border-left: 25px solid transparent;
+    border-bottom: 25px solid green; /*change color*/
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+span.interval-move-number-down {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 5px;
+}
+span.interval-move-number-up {
+    top: 0;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+}
+
+/*receipt*/
+.receipt-bold-title{
+    display: block; 
+    padding-top:20px; 
+    font-weight: bold; 
+    text-align: right;
+}
+.receipt-info{
+    display: block; 
+    padding-top:20px; 
+    text-align: left;
+}

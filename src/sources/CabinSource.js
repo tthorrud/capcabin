@@ -7,7 +7,7 @@ var CabinSource = {
                 return new Promise(function (resolve, reject) {
                     // simulate an asynchronous flow where data is fetched on
                     // a remote server somewhere.
-                    fetch('https://capcabindev.azurewebsites.net/api/cabins', {
+                    fetch('https://localhost/api/cabins', {
                         method: 'get',
                         mode: 'cors'
                     }).then(function (response){
